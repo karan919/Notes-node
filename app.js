@@ -12,7 +12,7 @@ const titleOptions ={
 };
 
 const argv = yargs
-	.command('add','Add a new node',{
+	.command('add','Add a new note',{
 		title: titleOptions,
 		body: {
 			describe: 'Content for the note',
